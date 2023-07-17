@@ -1,0 +1,70 @@
+.navbar {
+  background-color: #46d7ac;
+}
+
+footer {
+  background-color: #46d7ac;
+  position: fixed;
+  display: block;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 991px) {
+  .verticleLine {
+    border-left: 4px solid rgb(30, 219, 147);
+    height: 400px;
+    width: 1px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 6%;
+    top: 0;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .enrolled {
+    margin-top: 50px;
+  }
+}
+
+.right {
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.tableTop {
+  border: 2px solid #8bae24;
+  background-color: #a7c941;
+  color: white;
+  text-align: center;
+}
+img {
+  width: 150px;
+  height: 100px;
+}
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > td {
+  border: 1px solid #a0be44;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+  background-color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(even) > td {
+  background-color: #ebf2d3;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#tableData > tr {
+  animation: fadeIn 1s;
+}
